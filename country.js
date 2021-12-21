@@ -1,0 +1,19 @@
+class Country{
+    constructor(){
+        this.img1=createImg("Images/Country/Image12.jpg")
+        this.img2=createImg("Images/Country/Image1jpg")
+        this.img3=createImg("Images/Country/Image1.jpg")
+        this.img4=createImg("Images/Country/Image1.jpg")
+        this.img5=createImg("Images/Country/Image1.jpg")
+        this.img1.style("pImage")
+        this.img2.style("pImage")
+        this.img3.style("pImage")
+        this.img4.style("pImage")
+        this.img5.style("pImage")
+        this.img1.position(0.9,10)
+        this.img2.position(700,10)
+        this.img3.position(30,370)
+        this.img4.position(600,350)
+        this.img5.position(500,550)
+    }
+}

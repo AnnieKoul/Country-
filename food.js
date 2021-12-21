@@ -1,0 +1,38 @@
+class Food{
+    constructor(){
+        this.img1=createImg("Images/Food/Image1.jpg")
+        this.img2=createImg("Images/Food/Image2.jpg")
+        this.img3=createImg("Images/Food/Image3.jpg")
+        this.img4=createImg("Images/Food/Image4.jpg")
+        this.img5=createImg("Images/Food/Image5.jpg")
+        this.img1.class("pImage")
+        this.img2.class("pImage")
+        this.img3.class("pImage")
+        this.img4.class("pImage")
+        this.img5.class("pImage")
+        this.input1=createInput("").attribute("placeholder","Enter Your Answer")
+        this.input2=createInput("").attribute("placeholder","Enter Your Answer")
+        this.input3=createInput("").attribute("placeholder","Enter Your Answer")
+        this.input4=createInput("").attribute("placeholder","Enter Your Answer")
+        this.input5=createInput("").attribute("placeholder","Enter Your Answer")
+        this.img1.position(10,10)
+        this.img2.position(700,10)
+        this.img3.position(30,250)
+        this.img4.position(700,245)
+        this.img5.position(10,550)
+    this.input1.position(10,170)
+    this.input2.position(700,170)
+    this.input3.position(20,410)
+    this.input4.position(740,400)
+    this.input5.position(599,600)
+    this.input1.class("input")
+    this.input2.class("input")
+    this.input3.class("input")
+    this.input4.class('input')
+    this.input5.class("input")
+        
+    }
+
+    
+    
+}
